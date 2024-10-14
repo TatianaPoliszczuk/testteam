@@ -2,37 +2,32 @@
   <div class="container-main">
     <div class="about-container">
       <div class="about-block-image" data-aos="fade-left">
-        <picture>
-          <source
-            media="(min-width: 1280px)"
-            srcset="
-              /img/decst_img/about-desk@1x.jpg 1x,
-              /img/decst_img/about-desk@1x.jpg 2x
-            "
-          />
-          <source
-            media="(min-width: 768px)"
-            srcset="
-              /img/decst_img/about-desk@1x.jpg 1x,
-              /img/decst_img/about-desk@1x.jpg 2x
-            "
-          />
-          <source
-            media="(min-width: 320px)"
-            srcset="
-              /img/decst_img/about-desk@1x.jpg 1x,
-              /img/decst_img/about-desk@1x.jpg 2x
-            "
-          />
-          <img
-            src="/img/decst_img/about-desk@1x.jpg"
-            alt="luiza_radecka_o_mnie"
-            class="about-image"
-            loading="lazy"
-            width="335"
-            height="446"
-          />
-        </picture>
+      <picture>
+    <source
+        media="(min-width: 1280px)"
+        srcset="<?php echo get_template_directory_uri(); ?>/img/about-desk@1x.jpg 1x, 
+                <?php echo get_template_directory_uri(); ?>/img/about-desk@2x.jpg 2x"
+    />
+    <source
+        media="(min-width: 768px)"
+        srcset="<?php echo get_template_directory_uri(); ?>/img/about-desk@1x.jpg 1x, 
+                <?php echo get_template_directory_uri(); ?>/img/about-desk@2x.jpg 2x"
+    />
+    <source
+        media="(min-width: 320px)"
+        srcset="<?php echo get_template_directory_uri(); ?>/img/aboutme_mob@1x.jpg 1x, 
+                <?php echo get_template_directory_uri(); ?>/img/aboutme_mob@2x.jpg 2x"
+    />
+    <img
+        src="<?php echo get_template_directory_uri(); ?>/img/aboutme_mob.jpg"
+        alt="luiza_radecka_o_mnie"
+        class="about-image"
+        loading="lazy"
+        width="325px"
+        height="235px"
+    />
+</picture>
+
       </div>
       <div class="about-block-text">
         <h2 class="about-header">O mnie</h2>

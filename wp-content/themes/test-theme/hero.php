@@ -30,26 +30,26 @@
       <picture>
   <source
     media="(min-width: 1280px)"
-    srcset="<?php echo get_template_directory_uri(); ?>/img/decst_img/hero_luiza_desk@1x.jpg 1x, 
-             <?php echo get_template_directory_uri(); ?>/img/decst_img/hero_luiza_desk@2x.jpg 2x"
+    srcset="<?php echo get_template_directory_uri(); ?>/img/hero_desk@1x.jpg 1x, 
+             <?php echo get_template_directory_uri(); ?>/img/hero_desk@2x.jpg 2x"
   />
   <source
     media="(min-width: 768px)"
-    srcset="<?php echo get_template_directory_uri(); ?>/img/decst_img/hero_luiza_desk@1x.jpg 1x, 
-             <?php echo get_template_directory_uri(); ?>/img/decst_img/hero_luiza_desk@2x.jpg 2x"
+    srcset="<?php echo get_template_directory_uri(); ?>/img/hero_desk@1x.jpg 1x, 
+             <?php echo get_template_directory_uri(); ?>/img/hero_desk@2x.jpg 2x"
   />
   <source
     media="(min-width: 320px)"
-    srcset="<?php echo get_template_directory_uri(); ?>/img/decst_img/hero_luiza_desk@1x.jpg 1x, 
-             <?php echo get_template_directory_uri(); ?>/img/decst_img/hero_luiza_desk@2x.jpg 2x"
+    srcset="<?php echo get_template_directory_uri(); ?>/img/hero_mob@1x.jpg 1x, 
+             <?php echo get_template_directory_uri(); ?>/img/hero_mob@2x.jpg 2x"
   />
   <img
-    src="<?php echo get_template_directory_uri(); ?>/img/decst_img/hero_luiza_desk@1x.jpg"
+    src="<?php echo get_template_directory_uri(); ?>/img/hero_mob.jpg"
     alt="luiza_na_krześle"
     class="hero-image"
     loading="lazy"
-    width="335"
-    height="446"
+    width="320px"
+    height="235px"
   />
 </picture>
 

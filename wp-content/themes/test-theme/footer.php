@@ -7,40 +7,41 @@
             <img src="/img/logo.png" alt="LuizaRadecka Logo" />
           </a>
           <ul class="footer-socials-list">
-            <li class="footer-socials">
-              <a
-                href="https://www.facebook.com/luiza.radecka.1"
-                class="footer-social-link"
-                target="_blank"
-              >
-                <svg class="footer-social-icon" width="18" height="18">
-                  <use href="./img/icons.svg#icon-facebook11" />
-                </svg>
-              </a>
-            </li>
-            <li class="footer-socials">
-              <a
-                href="https://www.instagram.com/podolog__krakow/"
-                class="footer-social-link"
-                target="_blank"
-              >
-                <svg class="footer-social-icon" width="18" height="18">
-                  <use href="./img/icons.svg#icon-instagram" />
-                </svg>
-              </a>
-            </li>
-            <li class="footer-socials">
-              <a
-                href="https://www.youtube.com/"
-                class="footer-social-link"
-                target="_blank"
-              >
-                <svg class="footer-social-icon" width="18" height="18">
-                  <use href="./img/icons.svg#icon-youtube12" />
-                </svg>
-              </a>
-            </li>
-          </ul>
+    <li class="footer-socials">
+        <a
+            href="https://www.facebook.com/luiza.radecka.1"
+            class="footer-social-link"
+            target="_blank"
+        >
+            <svg class="footer-social-icon" width="18" height="18">
+                <use href="<?php echo get_template_directory_uri(); ?>/img/icons.svg#icon-facebook11" />
+            </svg>
+        </a>
+    </li>
+    <li class="footer-socials">
+        <a
+            href="https://www.instagram.com/podolog__krakow/"
+            class="footer-social-link"
+            target="_blank"
+        >
+            <svg class="footer-social-icon" width="18" height="18">
+                <use href="<?php echo get_template_directory_uri(); ?>/img/icons.svg#icon-instagram" />
+            </svg>
+        </a>
+    </li>
+    <li class="footer-socials">
+        <a
+            href="https://www.youtube.com/"
+            class="footer-social-link"
+            target="_blank"
+        >
+            <svg class="footer-social-icon" width="18" height="18">
+                <use href="<?php echo get_template_directory_uri(); ?>/img/icons.svg#icon-youtube12" />
+            </svg>
+        </a>
+    </li>
+</ul>
+
         </div>
         <a class="footer-phone-number" href="tel:+48508350406">+48508350406</a>
       </div>
@@ -82,6 +83,7 @@
 
 <?php wp_footer(); ?>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 <script src="<?php bloginfo("template_directory"); ?>/js/main.js"></script>
   </body>

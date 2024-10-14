@@ -12,6 +12,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="<?php bloginfo("template_directory"); ?>/css/styles.css" />
     <link rel="stylesheet" href="<?php bloginfo("template_directory"); ?>/img/icons.svg" />
 
@@ -23,5 +24,10 @@
 
 <?php get_template_part('hero'); ?>
 <?php get_template_part('about'); ?>
+<?php get_template_part('advertisement'); ?>
+<?php get_template_part('courses'); ?>
+<?php get_template_part('reviews'); ?>
+<?php get_template_part('contact'); ?>
+
 
 <?php get_footer(); ?>
